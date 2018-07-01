@@ -1,0 +1,17 @@
+buildscript {
+    dependencies {
+        classpath "io.freefair.gradle:lombok-plugin"
+        classpath "io.freefair.gradle:jsass-plugin"
+        classpath "io.freefair.gradle:maven-plugin"
+    }
+
+    repositories {
+        jcenter()
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
